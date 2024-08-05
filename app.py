@@ -6,7 +6,8 @@ from PIL import Image
 
 # Load model once and store it in session state
 if 'model' not in st.session_state:
-    st.session_state.model = load_model('pneumonia_detection_model.h5')
+    # st.session_state.model = load_model('pneumonia_detection_model.h5')
+    st.session_state.model = load_model('pneumonia_detection_model_quant.tflite')
 
 # Function to predict pneumonia
 def predict_pneumonia(img):
