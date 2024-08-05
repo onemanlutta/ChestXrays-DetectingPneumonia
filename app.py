@@ -23,7 +23,7 @@ def about_page():
     st.markdown('<h2 style="color:royalblue;"><u><b>Pneumonia in Brief </b></u></h2>', unsafe_allow_html=True)
 
      # Display local images
-    pneumonia_infograph = './pneumonia.jpg'
+    pneumonia_infograph = 'images/pneumonia.jpg'
 
     st.image(pneumonia_infograph, caption='Pneumonia', use_column_width=True)
 
