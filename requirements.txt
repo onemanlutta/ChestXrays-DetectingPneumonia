@@ -1,9 +1,5 @@
 pandas
 numpy
 scikit-learn
-
-keras
-Pillow
-
-
-
+tensorflow==2.13.0
+streamlit==1.12.0
