@@ -3,7 +3,7 @@ numpy
 scikit-learn
 streamlit ==1.37.0
 tensorflow ==2.16.1
-tensorflow-lite==2.16.1
+tensorflow-lite # ==2.16.1
 keras # ==3.0
 Pillow
 requests
