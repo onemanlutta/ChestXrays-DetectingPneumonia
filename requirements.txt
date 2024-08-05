@@ -2,8 +2,9 @@ pandas
 numpy
 scikit-learn
 
-pillow
+Pillow
 requests
 
-tensorflow==2.13.0
+keras
+tensorflow==2.15.1
 streamlit==1.12.0
