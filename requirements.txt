@@ -7,5 +7,20 @@ requests
 
 keras
 
-tensorflow==2.13.0
+tensorflow==2.13.1
 streamlit==1.12.0
+
+
+streamlit==1.16.0
+tensorflow==2.13.0
+keras==2.13.1
+# Pillow==9.4.0
+altair#==4.2.2
+click#==8.0.0
+gast#==0.4.0
+google-auth-oauthlib#==1.0.0
+tensorboard#==2.13.0
+tensorflow-estimator#==2.13.0
+typing-extensions#==4.5.0
+wrapt#==1.16.0
+protobuf#<4.0
