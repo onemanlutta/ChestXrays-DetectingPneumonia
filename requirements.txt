@@ -1,8 +1,7 @@
 pandas
 numpy
 scikit-learn
-tensorflow==2.13.0
-streamlit==1.37.0
+
 keras
 Pillow
 
