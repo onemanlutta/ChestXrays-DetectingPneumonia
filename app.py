@@ -77,7 +77,7 @@ def chest_xray_page():
     st.subheader('Upload a Chest X-ray to Detect Pneumonia')
 
     st.write("""
-    **Welcome to the Chest X-ray Pneumonia Detection page.** You can upload a chest X-ray image to check if it suggests pneumonia. This application helps to detect if someone has diabetes using Machine Learning effectively.
+    **Welcome to the Chest X-ray Pneumonia Detection page.** You can upload a chest X-ray image to check if it suggests pneumonia. This application helps to detect if someone has pneumonia using Machine Learning effectively.
 
     **Sample X-rays:**
     """)
