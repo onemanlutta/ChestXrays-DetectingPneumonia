@@ -7,7 +7,11 @@ from PIL import Image
 # Load model once and store it in session state
 if 'model' not in st.session_state:
     # st.session_state.model = load_model('pneumonia_detection_model.h5')
+    
     st.session_state.model = load_model('pneumonia_detection_model_quant.tflite')
+    interpreter = tf.lite.Interpreter(model_path="pneumonia_detection_model_quant.tflite")
+    interpreter.allocate_tensors()
+    st.session_state.model = interpreter
 
 # Function to predict pneumonia
 def predict_pneumonia(img):
