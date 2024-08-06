@@ -24,7 +24,7 @@ def predict_pneumonia(img):
     interpreter.invoke()
     prediction = interpreter.get_tensor(output_details[0]['index'])
 
-    result = 'Pneumonia Infection' if prediction[0][0] > 0.5 else 'Normal Radiograph'
+    result = 'Pneumonia Infection' if prediction[0][0] > 0.9 else 'Normal Radiograph'
     accuracy = prediction[0][0] if result == 'Pneumonia Infection' else 1 - prediction[0][0]
     return result, accuracy
 
@@ -57,7 +57,8 @@ def about_page():
     Pneumonia is typically diagnosed using a combination of physical examination, medical history, and imaging tests like chest X-rays.
     <br><br>
     <h4 style="color:royalblue;">Treatment:</h4>
-    Treatment often involves:
+    
+    Treatment often involves:<br>
     1. antibiotics or antiviral medications, and 
     2. supportive care. 
     <br>
