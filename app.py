@@ -46,12 +46,12 @@ def about_page():
     Pneumonia affects people of all ages but is particularly dangerous for `young children`, `the elderly`, and those with `weakened immune systems`.
     <br><br>
     <h4 style="color:royalblue;">Signs and Symptoms</h4> 
-    Common signs include: 
+    Common signs include: <br><ul><i>
     - _cough with phlegm_, 
     - _fever_, 
     - _chills_, 
     - _difficulty breathing_, and 
-    - _chest pain_.
+    - _chest pain_. </i></ul>
     <br><br>
     <h4 style="color:royalblue;">Diagnosis</h4> 
     Pneumonia is typically diagnosed using a combination of physical examination, medical history, and imaging tests like chest X-rays.
