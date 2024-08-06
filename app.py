@@ -39,14 +39,14 @@ def about_page():
 
     st.markdown("""
     <h4 style="color:royalblue;">What is Pneumonia?</h4> 
-    Pneumonia is an infection that `inflames the air sacs` in one or both lungs, which `may fill with fluid or pus`, causing symptoms such as cough, fever, and difficulty breathing.
+    Pneumonia is an infection that <i>inflames the air sacs</li> in one or both lungs, which <i>may fill with fluid or pus</li>, causing symptoms such as cough, fever, and difficulty breathing.
     - It may be caused by infection with certain viruses or bacteria and less commonly by other microorganisms, certain medications or conditions such as autoimmune diseases.
     <br><br>
     <h4 style="color:royalblue;">Epidemiology</h4>
-    Pneumonia affects people of all ages but is particularly dangerous for `young children`, `the elderly`, and those with `weakened immune systems`.
+    Pneumonia affects people of all ages but is particularly dangerous for <i>young children</li>, <i>the elderly</li>, and those with <li>weakened immune systems</li>.
     <br><br>
     <h4 style="color:royalblue;">Signs and Symptoms</h4> 
-    Common signs include: <br><i><<ul>
+    Common signs include: <br><i><ul>
     <li>cough with phlegm,</li> 
     <li>fever,</li> 
     <li>chills,</li> 
